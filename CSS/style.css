@@ -1,0 +1,182 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1000px;
+  place-items: center;
+  margin: 0% auto;
+  font-family: sans-serif;
+}
+.container {
+  min-height: 100vh;
+  margin: 50px;
+  background-color: rgb(247, 239, 239);
+}
+.my-2nd-body {
+  margin: 50px;
+  width: 0 auto;
+  min-height: 0 auto;
+  max-width: 0 auto;
+  padding: 120px;
+  margin-top: 40px;
+}
+
+.anything {
+  max-width: auto;
+  width: 0 auto;
+  margin: 10px;
+  max-height: auto;
+  padding: 10px;
+}
+.header-nav {
+  background-color: #df7861;
+  padding: 20px;
+  margin: 20px;
+  line-height: 2;
+  position: relative;
+  color: #fff;
+  border-radius: 10px;
+}
+span {
+  background-color: black;
+  padding: 15px 15px;
+  border-radius: 100px;
+  float: right;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+.addicted {
+  padding: 15px 15px;
+  border: 2px solid rgb(202, 193, 193);
+  border-radius: 100px;
+  float: right;
+  position: absolute;
+  right: 28px;
+  top: 20px;
+}
+.content {
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+  height: 450px;
+  position: relative;
+  border-radius: 5px;
+}
+.contente2 {
+  position: absolute;
+  bottom: 185px;
+}
+.bbbb {
+  font-size: 14px;
+  color: whitesmoke;
+}
+.pppp {
+  font-weight: bold;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.para1 {
+  padding: 30px 20px 0;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(88, 87, 87);
+  font-weight: bolder;
+}
+.ab,
+.cd,
+.ef,
+.gh,
+.ij,
+.kl,
+.mn {
+  height: 100px;
+  width: 40px;
+  background-color: #d96941;
+  margin: 50px 7px;
+  padding: 12px 25px;
+  border-radius: 3px;
+}
+.cd {
+  padding: 62px 25px 10px;
+}
+.ef {
+  padding: 120px 25px 10px;
+  background-color: #01a9b4;
+}
+.gh {
+  padding: 52px 25px 10px;
+}
+.ij {
+  padding: 37px 25px 10px;
+}
+.kl {
+  padding: 82px 25px 10px;
+}
+.mn {
+  padding: 42px 25px 10px;
+}
+.vd7vd {
+  position: relative;
+}
+.dm-me {
+  position: absolute;
+  top: 220px;
+}
+.op,
+.qr,
+.st,
+.uv,
+.xy,
+.zz,
+.nv {
+  margin: 9px;
+  padding: 0 7px;
+  opacity: 0.4;
+}
+.foot-para1 {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  text-align: left;
+}
+
+.foot-para2 {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 25%;
+}
+.to-do {
+  margin: 30px 0;
+  color: lightgray;
+}
+.eeef {
+  padding-left: 50%;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.eeeef {
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 10px;
+  color: rgb(110, 105, 105);
+}
+.gain {
+  color: rgb(110, 105, 105);
+  font-size: 14px;
+}
+@media (max-width: 500px) {
+  .container,
+  .my-2nd-body,
+  .anything,
+  .header-nav {
+    width: auto;
+  }
+}
